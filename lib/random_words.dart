@@ -31,7 +31,7 @@ class RandomWordsState extends State<RandomWords> {
 
     return ListTile(
       title: Text(
-        pair.asPascalCase,
+        pair.asUpperCase,
         style: const TextStyle(fontSize: 18),
       ),
       trailing: Icon(
@@ -56,7 +56,7 @@ class RandomWordsState extends State<RandomWords> {
       final Iterable<ListTile> tiles = _savedWordPairs.map((WordPair pair) {
         return ListTile(
             title: Text(
-          pair.asPascalCase,
+          pair.asUpperCase,
           style: const TextStyle(fontSize: 16.0),
         ));
       });
