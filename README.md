@@ -1,12 +1,11 @@
-# wordpair
+# wordpair app
 
-A new Flutter project.
+A Flutter project to merge pairs of words to make on word.
+This is a variabtion of the Flutter codelab project posted on the introductory tutorial.
 
-## Getting Started
+## Resources
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
+Here are the links to the original resources to easily get familiar with Flutter;
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
