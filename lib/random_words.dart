@@ -31,12 +31,12 @@ class RandomWordsState extends State<RandomWords> {
 
     return ListTile(
       title: Text(
-        pair.asPascalCase,
+        pair.asUpperCase,
         style: const TextStyle(fontSize: 18),
       ),
       trailing: Icon(
         alreadySaved ? Icons.favorite : Icons.favorite_border,
-        color: alreadySaved ? Colors.red : null,
+        color: alreadySaved ? Colors.red[700] : null,
       ),
       onTap: () {
         setState(() {
@@ -56,7 +56,7 @@ class RandomWordsState extends State<RandomWords> {
       final Iterable<ListTile> tiles = _savedWordPairs.map((WordPair pair) {
         return ListTile(
             title: Text(
-          pair.asPascalCase,
+          pair.asUpperCase,
           style: const TextStyle(fontSize: 16.0),
         ));
       });
